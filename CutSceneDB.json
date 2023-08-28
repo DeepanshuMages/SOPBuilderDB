@@ -1,0 +1,23 @@
+[
+  {
+    "cutSceneId": 1,
+    "cutSceneName": "ShutValves",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/ukx740l0r6fxwclk5tnqo/CutScene_Valves01.mp4?rlkey=pws0ldlv65f5zzz0qn48bo54s&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/ndfn77o3wh6o4ogvody4u/Valve-Close.mp3?rlkey=hfyeyvv247fzyz6asj3v4aplw&dl=0",
+    "delayInAudio": 0
+  },
+  {
+    "cutSceneId": 2,
+    "cutSceneName": "CloseAccommodationDoor",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/y7ihxcxjmid4sd3awc79u/CutScene_AccommodationRoom01.mp4?rlkey=7qnt9zjnvl2t6htua2qj0dbpb&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/s1o3z0hao7f3l22hqcto1/Watertight-door-close.mp3?rlkey=e5dsiiydhlx87f9gpjfmndb59&dl=0",
+    "delayInAudio": 1.0
+  },
+  {
+    "cutSceneId": 3,
+    "cutSceneName": "ShutVentilationSystem",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/gmeyjq1w3rl28452b8ycb/Compressed-Ventilation-System.mp4?rlkey=ci08w23q3pwdnr3jvsps7xg6s&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/oso87kvtnmyqynwbq8ubs/Ventilation-Turn-off.mp3?rlkey=ps601zb37712yn7fjmkiyoue9&dl=0",
+    "delayInAudio": 0
+  }
+]

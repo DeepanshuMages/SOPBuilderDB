@@ -1,0 +1,89 @@
+[
+  {
+    "id": 1,
+    "version": 0.1,
+    "name": "Tank Over Flow",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://drive.google.com/uc?export=download&id=1Swy4xPa53sKMaiJOEXHrOxgHWH-orHVb",
+      "steps": [
+        "Stop all transfer operations immediately, shut valves. ",
+        "Attempt to drain the overflowing tank to other tanks.",
+        "Initiate anti-pollution measures as per the SOPEP / SMPEP or other local Response Plans.",
+        " Inform nearest Authority (and other vessels in the vicinity only if pollution in water).",
+        "If liquid is entering the water inform the E/R about the danger of liquid entering the cooling water  intakes.",
+        "If evaporating vapour is present on deck, ensure all crew on deck are wearing full PPE. ",
+        "All accommodation access doors should be shut and all ventilation with the exception of closed-circuit  systems to be shut down. ",
+        "Smoking and naked lights should be prohibited everywhere on the ship and electrical switches  operated as little as possible. ",
+        "If toxic liquid is present on deck and a presenting a toxic hazard to the crew, consider operating the  deck water spray to neutralize it. If in port, ensure local authority informed first. ",
+        "If STS operations using chain linked fenders, consider using a foam blanket on any flammable liquid  in the water. ",
+        "Check that liquid has drained completely from any low-level piping such as IG horizontal lines.",
+        "Continuously notify all parties of vessel’s actions / planned actions. ",
+        "Stop VDR recording.",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy.",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data. ",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
+    },
+    "dialogueData": {
+      "drill": false,
+      "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The tanks are overflowing!<br>We need to handle it before it gets out of hand!"
+        },
+        {
+          "characterID": 8,
+          "dialogue": "Do the SOP for it in order to prevent it from getting worse captain!"
+        }
+      ]
+    },
+    "stepDataLists": [
+      {
+        "stepId": 9,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 1,
+        "stepInstruction": "Shut Valves"
+      },
+      {
+        "stepId": 15,
+        "callRecipient": "Anti-Pollution Measures",
+        "callResponse": "Deploy containment booms and skimmers to gather any oil that has been spilt, as well as chemical dispersants to break up the oil and absorbent materials to absorb it.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 0,
+        "stepInstruction": "Initiate Anti Pollution Measures"
+      },
+      {
+        "stepId": 2,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 2,
+        "stepInstruction": "Close Accommodation Doors"
+      },
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 3,
+        "stepInstruction": "Shut Ventilation Doors"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": true,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 4.5
+    }
+  }
+]

@@ -1,0 +1,190 @@
+[
+  {
+    "stepId": 1,
+    "stepName": "Automatic Fire Door",
+    "icon": "",
+    "category": "Door & Exits",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 2,
+    "stepName": "Accommodation Access Door",
+    "icon": "",
+    "category": "Door & Exits",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 3,
+    "stepName": "Ventilation System",
+    "icon": "",
+    "category": "Door & Exits",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 3,
+    "stepName": "WaterTight Doors",
+    "icon": "",
+    "category": "Door & Exits",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 4,
+    "stepName": "Officer",
+    "icon": "",
+    "category": "Call",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 5,
+    "stepName": "DPA",
+    "icon": "",
+    "category": "Call",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 6,
+    "stepName": "Steering Flat",
+    "icon": "",
+    "category": "Call",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 7,
+    "stepName": "Wifi & Internet",
+    "icon": "",
+    "category": "Controls",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 8,
+    "stepName": "Emergency Generator",
+    "icon": "",
+    "category": "Controls",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 9,
+    "stepName": "Valve",
+    "icon": "",
+    "category": "Controls",
+    "defaultValue": true,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 10,
+    "stepName": "Drop Anchor",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 11,
+    "stepName": "Hoist O-flag",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 12,
+    "stepName": "Release MOB Marker",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 13,
+    "stepName": "Send Rescue Boat",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 14,
+    "stepName": "Lower liquid in rupture",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 15,
+    "stepName": "Start anti pollution measures",
+    "icon": "",
+    "category": "Actions",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 16,
+    "stepName": "Reduce Speed",
+    "icon": "",
+    "category": "",
+    "defaultValue": false,
+    "dashBoardButton": false,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
+  },
+  {
+    "stepId": 17,
+    "stepName": "Steer Away From Danger",
+    "icon": "",
+    "category": "",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": {
+      "alarmType": ["General Alarm", "Manual Alarm"],
+      "alarmSpace": ["All Spaces", "Lowe Deck"]
+    }
+  },{
+    "stepId": 18,
+    "stepName": "Detect Rupture",
+    "icon": "",
+    "category": "",
+    "defaultValue": false,
+    "dashBoardButton": false,
+    "alarmList": {
+      "alarmType": ["General Alarm", "Manual Alarm"],
+      "alarmSpace": ["All Spaces", "Lowe Deck"]
+    }
+  },
+  {
+    "stepId": 19,
+    "stepName": "Activate Alarm",
+    "icon": "",
+    "category": "Alarm",
+    "defaultValue": false,
+    "dashBoardButton": true,
+    "alarmList": {
+      "alarmType": ["General Alarm", "Manual Alarm"],
+      "alarmSpace": ["All Spaces", "Lowe Deck"]
+    }
+  }
+]
