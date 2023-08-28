@@ -60,15 +60,6 @@
         "stepInstruction": "Initiate Anti Pollution Measures"
       },
       {
-        "stepId": 2,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 2,
-        "stepInstruction": "Close Accommodation Doors"
-      },
-      {
         "stepId": 3,
         "callRecipient": "",
         "callResponse": "",
