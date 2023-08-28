@@ -50,6 +50,15 @@
         "stepInstruction": "Shut Valves"
       },
       {
+        "stepId": 2,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 2,
+        "stepInstruction": "Close Accommodation Doors"
+      },
+      {
         "stepId": 15,
         "callRecipient": "Anti-Pollution Measures",
         "callResponse": "Deploy containment booms and skimmers to gather any oil that has been spilt, as well as chemical dispersants to break up the oil and absorbent materials to absorb it.",
