@@ -1,6 +1,6 @@
 [
   {
-    "stepId": 1,
+    "stepId": 0,
     "stepName": "Automatic Fire Door",
     "icon": "",
     "category": "Door & Exits",
@@ -9,7 +9,7 @@
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
-    "stepId": 2,
+    "stepId": 1,
     "stepName": "Accommodation Access Door",
     "icon": "",
     "category": "Door & Exits",
@@ -18,7 +18,7 @@
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
-    "stepId": 3,
+    "stepId": 2,
     "stepName": "Ventilation System",
     "icon": "",
     "category": "Door & Exits",
