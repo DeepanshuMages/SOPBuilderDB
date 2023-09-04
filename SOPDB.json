@@ -188,7 +188,7 @@
       "canMove": false,
       "env": "Grounding",
       "cutSceneId": 0,
-      "successPromptDelay": 4.5
+      "successPromptDelay": 0
     }
   },
   {
@@ -240,7 +240,7 @@
         "stepInstruction": "Close WaterTight Doors"
       },
       {
-        "stepId": 1,
+        "stepId": 0,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
@@ -253,8 +253,8 @@
         "stepId": 19,
         "callRecipient": "",
         "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 1,
+        "alarmType": 1,
+        "alarmSpace": 0,
         "cutSceneId": 0,
         "stepInstruction": "Sound Alarm"
       }
@@ -262,9 +262,9 @@
     "conditionsLists": {
       "canSteer": false,
       "canMove": false,
-      "env": "Grounding",
+      "env": "Ice Bergs",
       "cutSceneId": 0,
-      "successPromptDelay": 4.5
+      "successPromptDelay": 0
     }
   }
 ]
