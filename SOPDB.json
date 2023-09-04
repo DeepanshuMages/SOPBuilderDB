@@ -60,7 +60,7 @@
         "stepInstruction": "Initiate Anti Pollution Measures"
       },
       {
-        "stepId": 2,
+        "stepId": 1,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
@@ -69,7 +69,7 @@
         "stepInstruction": "Close Accommodation Doors"
       },
       {
-        "stepId": 3,
+        "stepId": 2,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
