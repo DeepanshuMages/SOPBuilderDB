@@ -85,5 +85,186 @@
       "cutSceneId": 0,
       "successPromptDelay": 4.5
     }
+  },
+
+  {
+    "id": 2,
+    "version": 0.1,
+    "name": "GROUNDING & STRANDING",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://drive.google.com/uc?export=download&id=1Q3OV8k3I9uFtO31EbzL2W64m7FmhkiAb",
+      "steps": [
+        "Let go one or both anchors to prevent further on-set towards bank or bar. ",
+        "Close watertight doors. ",
+        "Sound of all cargo hold bilges, cargo, ballast, freshwater and oil tanks, void spaces, cofferdams,  pump rooms and engine room bilges.",
+        "Make initial contact with DPA or his alternate.",
+        "Conduct Alcohol test for all crew on duty at the time of incident & record data",
+        "Maintain contact with Coastal Authority, nearby vessels ",
+        "Exhibit lights/shapes and make any appropriate sound signals. To switch on deck lights at night",
+        "Check the hull for damage, including visual inspection of compartments where possible. ",
+        "If oil pollution is occurring, take mitigating actions to reduce out flow and report to nearest authority. ",
+        "Check the nature of the bottom: e.g., sand, soft or hard mud, shell, stones, or coral. ",
+        "Check the direction, rate of current and stage of tide. ",
+        "Make a sketch of ship showing the water depths sounded around it with time and tidal conditions and  send to Office. ",
+        "Determine which way deep water lies.",
+        "Determine the condition of wind, sea and / or swell.",
+        "Whether hard aground or touching.",
+        "Determine the stability and stress conditions. ",
+        "Check possibility of reducing the draught of the ship, taking into consideration excessive stresses that  may occur. ",
+        "Tank status: soundings shall be repeated at least at intervals of 2 hours as long as the vessel remains  aground, and an exact record of such soundings shall be kept. ",
+        "Vessel’s draft: the draught marks should be checked. The time and reading should be recorded. ",
+        "Examine possibility of using engines to re-float. If possible, make attempt to do so.",
+        "Arrange tug assistance if necessary. ",
+        "Arrange contact with Class ERS for re-floating calculations. ",
+        "If vessel re-floats, proceed to safe place to perform further checks, including diver assistance.",
+        "Stop VDR recording",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1-EXEnJe_-lN5brKgFH59_65A8vRMMCpS/view?usp=sharing"
+    },
+    "dialogueData": {
+      "drill": false,
+      "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ]
+    },
+    "stepDataLists": [
+      {
+        "stepId": 10,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Drop Anchor"
+      },
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Close WaterTight Doors"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 1,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm"
+      },
+      {
+        "stepId": 5,
+        "callRecipient": "Designated Person Ashore (DPA)",
+        "callResponse": "Acknowledged.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Call DPA"
+      },
+      {
+        "stepId": 7,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Switch off Wifi & Internet"
+      }
+      
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": false,
+      "env": "Grounding",
+      "cutSceneId": 0,
+      "successPromptDelay": 4.5
+    }
+  },
+  {
+    "id": 3,
+    "version": 0.1,
+    "name": "COLLISION & ALLISION",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://drive.google.com/uc?export=download&id=1sH-DSQQhflaHypudG6uXparo4u_T9RdG",
+      "steps": [
+        "Close watertight doors and automatic fire doors.",
+        "Manual sounding of all spaces - engine room, ballast tanks, cargo holds, cofferdams, void spaces.",
+        "Make preparations for abandoning ship.",
+        "Assist the other vessel if in life threatening situation. ",
+        "Is there immediate danger to own vessel or crew? If so, Master should take whatever action to  minimise the danger.",
+        "Is it safe for the vessel to remain in the present location? Consider moving to anchoring grounds. ",
+        "Is the vessel causing danger to other vessels or parties? ",
+        "Is there any oil pollution? If so, proceed with pollution control action.",
+        "Check if there is damage or imminent damage to cargo? ",
+        "Based on the above assessment, Master should take the necessary damage or pollution control  action.",
+        "Determine the need for commercial salvage assistance. Master shall determine if vessel in possible  danger of becoming a total loss before signing an LOF as necessary. ",
+        "If in coastal waters, contact Local / Port Authorities - Coast Guard, MSA etc.",
+        "Check vessel drift.",
+        "Stop VDR recording. ",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/13TpIyCrAZG0IJcSi7-1trlYMV3c_0PlH/view?usp=share_link"
+    },
+    "dialogueData": {
+      "drill": false,
+      "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ]
+    },
+    "stepDataLists": [
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Close WaterTight Doors"
+      },
+      {
+        "stepId": 1,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 6,
+        "stepInstruction": "Close Automatic Fire Door"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 1,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": false,
+      "env": "Grounding",
+      "cutSceneId": 0,
+      "successPromptDelay": 4.5
+    }
   }
 ]

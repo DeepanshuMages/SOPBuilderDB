@@ -19,5 +19,26 @@
     "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/gmeyjq1w3rl28452b8ycb/Compressed-Ventilation-System.mp4?rlkey=ci08w23q3pwdnr3jvsps7xg6s&dl=0",
     "audioLink": "https://dl.dropboxusercontent.com/scl/fi/oso87kvtnmyqynwbq8ubs/Ventilation-Turn-off.mp3?rlkey=ps601zb37712yn7fjmkiyoue9&dl=0",
     "delayInAudio": 0
+  },
+  {
+    "cutSceneId": 4,
+    "cutSceneName": "WaterTightDoor",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/fk0025tc54wjsdld6z7jo/WaterTightDoor.mp4?rlkey=xrh2uxf17ag9oji21kg3kekdb&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/s1o3z0hao7f3l22hqcto1/Watertight-door-close.mp3?rlkey=e5dsiiydhlx87f9gpjfmndb59&dl=0",
+    "delayInAudio": 0
+  },
+  {
+    "cutSceneId": 5,
+    "cutSceneName": "LowerLiquidInReptureTank",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/LowerLiquidInReptureTank.mp4?rlkey=z7hx539hgzl9vbf5vfu96vevm&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Lower-Water-sound.mp3?rlkey=5xp179uyfl4zshg8k93ylhsmo&dl=0",
+    "delayInAudio": 0
+  },
+  {
+    "cutSceneId": 6,
+    "cutSceneName": "AutomaticFireDoor",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/Compressed-Automatic-Firedoors.mp4?rlkey=3kwbho5lqehevtst1mm99cdjv&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Firedoor-Close.mp3?rlkey=5f3izs7hgckap6ir93yxgi2w0&dl=0",
+    "delayInAudio": 0
   }
 ]
