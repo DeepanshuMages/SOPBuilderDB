@@ -5,7 +5,7 @@
     "name": "Tank Over Flow",
     "isActive": true,
     "sopUIDataList": {
-      "image": "https://drive.google.com/uc?export=download&id=1Swy4xPa53sKMaiJOEXHrOxgHWH-orHVb",
+      "image": "https://dl.dropboxusercontent.com/scl/fi/7uzygzg5se4lrlunjqww6/Tank-Overflow.jpg?rlkey=i274tiykrj3ka3vxgrsji8cdi&dl=0",
       "steps": [
         "Stop all transfer operations immediately, shut valves. ",
         "Attempt to drain the overflowing tank to other tanks.",
@@ -90,7 +90,7 @@
     "name": "GROUNDING & STRANDING",
     "isActive": true,
     "sopUIDataList": {
-      "image": "https://drive.google.com/uc?export=download&id=1Q3OV8k3I9uFtO31EbzL2W64m7FmhkiAb",
+      "image": "https://dl.dropboxusercontent.com/scl/fi/698o2rafw3nktr4kwbq8u/GroundingStranding.jpg?rlkey=p37i5ibzphuow1984jll29ich&dl=0",
       "steps": [
         "Let go one or both anchors to prevent further on-set towards bank or bar. ",
         "Close watertight doors. ",
@@ -191,7 +191,7 @@
     "name": "COLLISION & ALLISION",
     "isActive": true,
     "sopUIDataList": {
-      "image": "https://drive.google.com/uc?export=download&id=1sH-DSQQhflaHypudG6uXparo4u_T9RdG",
+      "image": "https://dl.dropboxusercontent.com/scl/fi/bjtxuqmhl0t76w0puog3n/CollisionAllison.jpeg?rlkey=sw05lq28ja2igmu0ttw5rx0s3&dl=0",
       "steps": [
         "Close watertight doors and automatic fire doors.",
         "Manual sounding of all spaces - engine room, ballast tanks, cargo holds, cofferdams, void spaces.",
