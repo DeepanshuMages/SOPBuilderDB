@@ -253,7 +253,7 @@
     "conditionsLists": {
       "canSteer": false,
       "canMove": false,
-      "env": "Ice Bergs",
+      "env": "Ship",
       "cutSceneId": 0,
       "successPromptDelay": 0
     }
