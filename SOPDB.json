@@ -26,9 +26,7 @@
       ],
       "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
     },
-    "dialogueData": {
-      "drill": false,
-      "dialogueLists": [
+    "dialogueLists": [
         {
           "characterID": 8,
           "dialogue": "The tanks are overflowing!<br>We need to handle it before it gets out of hand!"
@@ -37,8 +35,7 @@
           "characterID": 8,
           "dialogue": "Do the SOP for it in order to prevent it from getting worse captain!"
         }
-      ]
-    },
+      ],
     "stepDataLists": [
       {
         "stepId": 9,
@@ -125,15 +122,12 @@
       ],
       "pdfUrl": "https://drive.google.com/file/d/1-EXEnJe_-lN5brKgFH59_65A8vRMMCpS/view?usp=sharing"
     },
-    "dialogueData": {
-      "drill": false,
-      "dialogueLists": [
+    "dialogueLists": [
         {
           "characterID": 8,
           "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
         }
-      ]
-    },
+      ],
     "stepDataLists": [
       {
         "stepId": 10,
@@ -219,15 +213,12 @@
       ],
       "pdfUrl": "https://drive.google.com/file/d/13TpIyCrAZG0IJcSi7-1trlYMV3c_0PlH/view?usp=share_link"
     },
-    "dialogueData": {
-      "drill": false,
-      "dialogueLists": [
+    "dialogueLists": [
         {
           "characterID": 8,
           "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
         }
-      ]
-    },
+      ],
     "stepDataLists": [
       {
         "stepId": 3,
