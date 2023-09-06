@@ -87,7 +87,7 @@
   {
     "id": 3,
     "version": 0.1,
-    "name": "GROUNDING & STRANDING",
+    "name": "Grounding & Stranding",
     "isActive": true,
     "sopUIDataList": {
       "image": "https://dl.dropboxusercontent.com/scl/fi/698o2rafw3nktr4kwbq8u/GroundingStranding.jpg?rlkey=p37i5ibzphuow1984jll29ich&dl=0",
@@ -188,7 +188,7 @@
   {
     "id": 4,
     "version": 0.1,
-    "name": "COLLISION & ALLISION",
+    "name": "Collision And Allison",
     "isActive": true,
     "sopUIDataList": {
       "image": "https://dl.dropboxusercontent.com/scl/fi/bjtxuqmhl0t76w0puog3n/CollisionAllison.jpeg?rlkey=sw05lq28ja2igmu0ttw5rx0s3&dl=0",
@@ -254,6 +254,70 @@
       "canSteer": false,
       "canMove": false,
       "env": "Ship",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  }
+  {
+    "id": 5,
+    "version": 0.1,
+    "name": "Steering Gear Failure",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/xher8vcn88yxoyusdgjhk/SteeringGearFailure.jpg?rlkey=e0zba2gzj2dh25a35vmq76v5n&dl=0" ,
+      "steps": [
+        "Refer to the following schematics for steering gear failures (at sea or in canal / river / narrow waters). ",
+        "Reduce speed. ",
+        "Establish communications with steering flat. ",
+        "Check and synchronize gyro repeater in steering flat.",
+        "Prepare for possible anchoring. ",
+        "Start bow thruster, if possible, to help steerage at slow speeds.",
+        "Stop VDR recording. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1VSiWQ3nxjDQcJJAbwXYoy4CeJagGXoH3/view?usp=share_link"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Reduce Speed"
+      },
+      {
+        "stepId": 5,
+        "callRecipient": "Steering Flat",
+        "callResponse": "Checked and synchronised the steering flat's gyro repeater.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Call SteeringFlat"
+      },
+      {
+        "stepId": 10,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Drop Anchor"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
       "cutSceneId": 0,
       "successPromptDelay": 0
     }
