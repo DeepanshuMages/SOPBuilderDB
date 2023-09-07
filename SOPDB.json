@@ -1,6 +1,6 @@
 [
   {
-    "id": 7,
+    "id": 1,
     "version": 0.1,
     "name": "Tank Over Flow",
     "isActive": true,
@@ -85,7 +85,7 @@
   },
 
   {
-    "id": 3,
+    "id": 2,
     "version": 0.1,
     "name": "Grounding & Stranding",
     "isActive": true,
@@ -186,7 +186,7 @@
     }
   },
   {
-    "id": 4,
+    "id": 3,
     "version": 0.1,
     "name": "Collision And Allison",
     "isActive": true,
@@ -259,7 +259,7 @@
     }
   },
   {
-    "id": 5,
+    "id": 4,
     "version": 0.1,
     "name": "Steering Gear Failure",
     "isActive": true,
@@ -318,11 +318,11 @@
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 0
+      "successPromptDelay": 5
     }
   },
   {
-    "id": 6,
+    "id": 5,
     "version": 0.1,
     "name": "Man Overboard",
     "isActive": true,
@@ -429,7 +429,7 @@
     }
   },
   {
-    "id": 7,
+    "id": 6,
     "version": 0.1,
     "name": "Hull Rupture",
     "isActive": true,
@@ -487,7 +487,7 @@
     }
   },
   {
-    "id": 8,
+    "id": 7,
     "version": 0.1,
     "name": "Loss Of Power",
     "isActive": true,
