@@ -295,7 +295,7 @@
         "stepInstruction": "Reduce Speed"
       },
       {
-        "stepId": 5,
+        "stepId": 6,
         "callRecipient": "Steering Flat",
         "callResponse": "Checked and synchronised the steering flat's gyro repeater.",
         "alarmType": 0,
