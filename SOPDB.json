@@ -291,8 +291,7 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 4,
+        "cutSceneId": 0,
         "stepInstruction": "Reduce Speed"
       },
       {
@@ -312,6 +311,214 @@
         "alarmSpace": 0,
         "cutSceneId": 0,
         "stepInstruction": "Drop Anchor"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
+    "id": 6,
+    "version": 0.1,
+    "name": "Man Overboard",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/0jwlflxac10nhpyidnmfg/ManOverboard.jpg?rlkey=8de20k7hjsh8hqjzua6hjsjcz&dl=0" ,
+      "steps": [
+        "Inform the Officer of the Watch and Master if they are not already aware of the situation. ",
+        "Revert to manual steering and manoeuvre the vessel to keep the propeller away from the side on  which the man has gone overboard. ",
+        "Release MOB marker and SART to the side of man overboard or men sighted",
+        "Press the Man Overboard or Mark Position button on the GPS and ECDIS. ",
+        "Sound the MOB sound signal (three prolonged blasts on the ship’s whistle). ",
+        "Sound the General Emergency Alarm and inform crew of Man overboard port / stbd side / rescue boat  stations over PA. ",
+        "Reduce vessel speed and commence Williamson turn. ",
+        "Additional lookouts posted to keep constant watch for the man overboard or men in the water. If at  night, search lights operated without interfering with safe navigation.",
+        "If necessary, sound three prolonged blasts on the ship’s whistle.",
+        "Inform the Engineer of the Watch and place the engines on standby (Do not use the M/E Emcy Stop).",
+        "Manoeuvre the vessel to rescue the man overboard or carry out a search as given in IAMSAR. ",
+        "Hoist signal flag ‘O’. ",
+        "Prepare rescue boat for launching.",
+        "Distribute portable VHF radios for communication.",
+        "Rig pilot ladder / nets to assist in the recovery, or lower survival suit-clad crew member with rescue  net from ship’s pre-identified rescue point. ",
+        "Manoeuvre the vessel to create a lee when approaching the man in water.",
+        "If man recovered and suffering from hypothermia take all suitable precautions to insulate him before  bringing him into the accommodation and follow hypothermia recovery procedure.",
+        "If man is being hoisted by rescue harness, ensure hoisted person is in deck chair position, and not  vertical, to avoid suspension trauma. ",
+        "Further coordination with third parties after persons in water rescued. ",
+        "If possible, recover the MOB marker and SART. ",
+        "Record all actions taken in the Log Book.",  
+        "Stop VDR recording. ",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1s8BjNISX1oRzrzQ7f_IEFHwrVEy8vVrs/view?usp=sharing"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 5,
+        "callRecipient": "Officer of the Watch",
+        "callResponse": "Acknowledged.<br>The ship has reverted to manual steering and is manoeuvring the vessle to keep propeller away from the man overboard side.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Call Officer"
+      },
+      {
+        "stepId": 12,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Release MOB Marker"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm 1"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm 2"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm 3"
+      },
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Reduce Speed"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
+    "id": 7,
+    "version": 0.1,
+    "name": "Hull Rupture",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/u9ajfyff5bdwy3mpci1eq/HullRupture.png?rlkey=ofnszgs9dlay90ji7c7qw84bc&dl=0" ,
+      "steps": [
+        "Advise terminal; or other vessel (if STS) / bunker barge ",
+        "Stop all transfer operations immediately, shut valves. ",
+        "Electrical switches to be activated only if absolutely required",
+        "If hose leading upward from the manifold, down-drain the ship’s line to which the hose is connected, if  possible. ",
+        "Initiate anti-pollution measures as per the SOPEP / SMPEP or other local Response Plans",
+        "Inform nearest Authority and other vessels in the vicinity",
+        "If liquid is entering the water inform the E/R about the danger of liquid entering the cooling water  intakes. ",
+        "If evaporating vapour is present on deck, ensure all crew on deck are wearing adequate PPE suitable  for the type of cargo/vapour or ship. ",
+        "All accommodation access doors should be shut and all ventilation with the exception of closed-circuit  systems to be shut down. ",
+        "Smoking and naked lights should be prohibited everywhere on the ship and electrical switches  operated as little as possible. ",
+        "If toxic liquid spillage occurs on deck, fire hoses and water sprays should be used to neutralise its  effects.",
+        "On Gas vessels water hoses to be used for dispersing the liquid overboard and to maintain steel  temperatures so that brittle fracture of the hull is avoided. ",
+        "Water sprays from hoses can also be used to deflect a gas cloud.",
+        "If in port, local authorities to be informed. ",
+        "Emergency Teams to be activated. ",
+        "If STS operations using chain linked fenders, consider using a foam blanket on any flammable liquid  in the water.",
+        "Continuously notify all parties of vessel’s actions / planned actions.",
+        "Stop VDR recording. ",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Reduce Speed"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
+    "id": 8,
+    "version": 0.1,
+    "name": "Loss Of Power",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/gcb4us7eh8d6k9z5zcnvs/Loss-of-Power.jpg?rlkey=6or6ccgabqc5kfdz2pdbxnfak&dl=0" ,
+      "steps": [
+        "Switch to hand steering once emergency generator is on.",
+        "Steer vessel away from danger.",  
+        "Use Aldis lamp with battery to warn other vessels. ",
+        "Prepare for anchoring if in shallow water. ",
+        "Conserve power if emergency power is through battery.",
+        "Engineers to rectify fault and revert to normal power. "
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1hrcNWitpYZSa-UYIPW7KM8MsvUU_Ja6M/view?usp=share_link"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Reduce Speed"
       }
     ],
     "conditionsLists": {
