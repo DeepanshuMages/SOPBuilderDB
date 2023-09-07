@@ -2,328 +2,6 @@
   {
     "id": 1,
     "version": 0.1,
-    "name": "Tank Over Flow",
-    "isActive": true,
-    "sopUIDataList": {
-      "image": "https://dl.dropboxusercontent.com/scl/fi/7uzygzg5se4lrlunjqww6/Tank-Overflow.jpg?rlkey=i274tiykrj3ka3vxgrsji8cdi&dl=0",
-      "steps": [
-        "Stop all transfer operations immediately, shut valves. ",
-        "Attempt to drain the overflowing tank to other tanks.",
-        "Initiate anti-pollution measures as per the SOPEP / SMPEP or other local Response Plans.",
-        " Inform nearest Authority (and other vessels in the vicinity only if pollution in water).",
-        "If liquid is entering the water inform the E/R about the danger of liquid entering the cooling water  intakes.",
-        "If evaporating vapour is present on deck, ensure all crew on deck are wearing full PPE. ",
-        "All accommodation access doors should be shut and all ventilation with the exception of closed-circuit  systems to be shut down. ",
-        "Smoking and naked lights should be prohibited everywhere on the ship and electrical switches  operated as little as possible. ",
-        "If toxic liquid is present on deck and a presenting a toxic hazard to the crew, consider operating the  deck water spray to neutralize it. If in port, ensure local authority informed first. ",
-        "If STS operations using chain linked fenders, consider using a foam blanket on any flammable liquid  in the water. ",
-        "Check that liquid has drained completely from any low-level piping such as IG horizontal lines.",
-        "Continuously notify all parties of vessel’s actions / planned actions. ",
-        "Stop VDR recording.",
-        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy.",
-        "Conduct Alcohol Test for all crew on duty at the time of incident and record data. ",
-        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
-      ],
-      "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
-    },
-    "dialogueLists": [
-        {
-          "characterID": 8,
-          "dialogue": "The tanks are overflowing!<br>We need to handle it before it gets out of hand!"
-        },
-        {
-          "characterID": 8,
-          "dialogue": "Do the SOP for it in order to prevent it from getting worse captain!"
-        }
-      ],
-    "stepDataLists": [
-      {
-        "stepId": 9,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 1,
-        "stepInstruction": "Shut Valves"
-      },
-      {
-        "stepId": 15,
-        "callRecipient": "Anti-Pollution Measures",
-        "callResponse": "Deploy containment booms and skimmers to gather any oil that has been spilt, as well as chemical dispersants to break up the oil and absorbent materials to absorb it.",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
-        "stepInstruction": "Initiate Anti Pollution Measures"
-      },
-      {
-        "stepId": 1,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 2,
-        "stepInstruction": "Close Accommodation Doors"
-      },
-      {
-        "stepId": 2,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 3,
-        "stepInstruction": "Shut Ventilation Doors"
-      }
-    ],
-    "conditionsLists": {
-      "canSteer": true,
-      "canMove": true,
-      "env": "",
-      "cutSceneId": 0,
-      "successPromptDelay": 4.5
-    }
-  },
-
-  {
-    "id": 2,
-    "version": 0.1,
-    "name": "Grounding & Stranding",
-    "isActive": true,
-    "sopUIDataList": {
-      "image": "https://dl.dropboxusercontent.com/scl/fi/698o2rafw3nktr4kwbq8u/GroundingStranding.jpg?rlkey=p37i5ibzphuow1984jll29ich&dl=0",
-      "steps": [
-        "Let go one or both anchors to prevent further on-set towards bank or bar. ",
-        "Close watertight doors. ",
-        "Sound of all cargo hold bilges, cargo, ballast, freshwater and oil tanks, void spaces, cofferdams,  pump rooms and engine room bilges.",
-        "Make initial contact with DPA or his alternate.",
-        "Conduct Alcohol test for all crew on duty at the time of incident & record data",
-        "Maintain contact with Coastal Authority, nearby vessels ",
-        "Exhibit lights/shapes and make any appropriate sound signals. To switch on deck lights at night",
-        "Check the hull for damage, including visual inspection of compartments where possible. ",
-        "If oil pollution is occurring, take mitigating actions to reduce out flow and report to nearest authority. ",
-        "Check the nature of the bottom: e.g., sand, soft or hard mud, shell, stones, or coral. ",
-        "Check the direction, rate of current and stage of tide. ",
-        "Make a sketch of ship showing the water depths sounded around it with time and tidal conditions and  send to Office. ",
-        "Determine which way deep water lies.",
-        "Determine the condition of wind, sea and / or swell.",
-        "Whether hard aground or touching.",
-        "Determine the stability and stress conditions. ",
-        "Check possibility of reducing the draught of the ship, taking into consideration excessive stresses that  may occur. ",
-        "Tank status: soundings shall be repeated at least at intervals of 2 hours as long as the vessel remains  aground, and an exact record of such soundings shall be kept. ",
-        "Vessel’s draft: the draught marks should be checked. The time and reading should be recorded. ",
-        "Examine possibility of using engines to re-float. If possible, make attempt to do so.",
-        "Arrange tug assistance if necessary. ",
-        "Arrange contact with Class ERS for re-floating calculations. ",
-        "If vessel re-floats, proceed to safe place to perform further checks, including diver assistance.",
-        "Stop VDR recording",
-        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
-        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
-        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
-      ],
-      "pdfUrl": "https://drive.google.com/file/d/1-EXEnJe_-lN5brKgFH59_65A8vRMMCpS/view?usp=sharing"
-    },
-    "dialogueLists": [
-        {
-          "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
-        }
-      ],
-    "stepDataLists": [
-      {
-        "stepId": 10,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Drop Anchor"
-      },
-      {
-        "stepId": 3,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 4,
-        "stepInstruction": "Close WaterTight Doors"
-      },
-      {
-        "stepId": 19,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 1,
-        "cutSceneId": 0,
-        "stepInstruction": "Sound Alarm"
-      },
-      {
-        "stepId": 5,
-        "callRecipient": "Designated Person Ashore (DPA)",
-        "callResponse": "Acknowledged.",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Call DPA"
-      },
-      {
-        "stepId": 7,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Switch off Wifi & Internet"
-      }
-      
-    ],
-    "conditionsLists": {
-      "canSteer": false,
-      "canMove": false,
-      "env": "Grounding",
-      "cutSceneId": 0,
-      "successPromptDelay": 0
-    }
-  },
-  {
-    "id": 3,
-    "version": 0.1,
-    "name": "Collision And Allison",
-    "isActive": true,
-    "sopUIDataList": {
-      "image": "https://dl.dropboxusercontent.com/scl/fi/bjtxuqmhl0t76w0puog3n/CollisionAllison.jpeg?rlkey=sw05lq28ja2igmu0ttw5rx0s3&dl=0",
-      "steps": [
-        "Close watertight doors and automatic fire doors.",
-        "Manual sounding of all spaces - engine room, ballast tanks, cargo holds, cofferdams, void spaces.",
-        "Make preparations for abandoning ship.",
-        "Assist the other vessel if in life threatening situation. ",
-        "Is there immediate danger to own vessel or crew? If so, Master should take whatever action to  minimise the danger.",
-        "Is it safe for the vessel to remain in the present location? Consider moving to anchoring grounds. ",
-        "Is the vessel causing danger to other vessels or parties? ",
-        "Is there any oil pollution? If so, proceed with pollution control action.",
-        "Check if there is damage or imminent damage to cargo? ",
-        "Based on the above assessment, Master should take the necessary damage or pollution control  action.",
-        "Determine the need for commercial salvage assistance. Master shall determine if vessel in possible  danger of becoming a total loss before signing an LOF as necessary. ",
-        "If in coastal waters, contact Local / Port Authorities - Coast Guard, MSA etc.",
-        "Check vessel drift.",
-        "Stop VDR recording. ",
-        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
-        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
-        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
-      ],
-      "pdfUrl": "https://drive.google.com/file/d/13TpIyCrAZG0IJcSi7-1trlYMV3c_0PlH/view?usp=share_link"
-    },
-    "dialogueLists": [
-        {
-          "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
-        }
-      ],
-    "stepDataLists": [
-      {
-        "stepId": 3,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 4,
-        "stepInstruction": "Close WaterTight Doors"
-      },
-      {
-        "stepId": 0,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 6,
-        "stepInstruction": "Close Automatic Fire Door"
-      },
-      {
-        "stepId": 19,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 1,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Sound Alarm"
-      }
-    ],
-    "conditionsLists": {
-      "canSteer": false,
-      "canMove": false,
-      "env": "Ship",
-      "cutSceneId": 0,
-      "successPromptDelay": 0
-    }
-  },
-  {
-    "id": 4,
-    "version": 0.1,
-    "name": "Steering Gear Failure",
-    "isActive": true,
-    "sopUIDataList": {
-      "image": "https://dl.dropboxusercontent.com/scl/fi/xher8vcn88yxoyusdgjhk/SteeringGearFailure.jpg?rlkey=e0zba2gzj2dh25a35vmq76v5n&dl=0" ,
-      "steps": [
-        "Refer to the following schematics for steering gear failures (at sea or in canal / river / narrow waters). ",
-        "Reduce speed. ",
-        "Establish communications with steering flat. ",
-        "Check and synchronize gyro repeater in steering flat.",
-        "Prepare for possible anchoring. ",
-        "Start bow thruster, if possible, to help steerage at slow speeds.",
-        "Stop VDR recording. ",
-        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
-        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
-      ],
-      "pdfUrl": "https://drive.google.com/file/d/1VSiWQ3nxjDQcJJAbwXYoy4CeJagGXoH3/view?usp=share_link"
-    },
-    "dialogueLists": [
-        {
-          "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
-        }
-      ],
-    "stepDataLists": [
-      {
-        "stepId": 16,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Reduce Speed"
-      },
-      {
-        "stepId": 6,
-        "callRecipient": "Steering Flat",
-        "callResponse": "Checked and synchronised the steering flat's gyro repeater.",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Call SteeringFlat"
-      },
-      {
-        "stepId": 10,
-        "callRecipient": "",
-        "callResponse": "",
-        "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
-        "stepInstruction": "Drop Anchor"
-      }
-    ],
-    "conditionsLists": {
-      "canSteer": false,
-      "canMove": true,
-      "env": "",
-      "cutSceneId": 0,
-      "successPromptDelay": 5
-    }
-  },
-  {
-    "id": 5,
-    "version": 0.1,
     "name": "Man Overboard",
     "isActive": true,
     "sopUIDataList": {
@@ -429,6 +107,287 @@
     }
   },
   {
+    "id": 2,
+    "version": 0.1,
+    "name": "Steering Gear Failure",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/xher8vcn88yxoyusdgjhk/SteeringGearFailure.jpg?rlkey=e0zba2gzj2dh25a35vmq76v5n&dl=0" ,
+      "steps": [
+        "Refer to the following schematics for steering gear failures (at sea or in canal / river / narrow waters). ",
+        "Reduce speed. ",
+        "Establish communications with steering flat. ",
+        "Check and synchronize gyro repeater in steering flat.",
+        "Prepare for possible anchoring. ",
+        "Start bow thruster, if possible, to help steerage at slow speeds.",
+        "Stop VDR recording. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1VSiWQ3nxjDQcJJAbwXYoy4CeJagGXoH3/view?usp=share_link"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Reduce Speed"
+      },
+      {
+        "stepId": 6,
+        "callRecipient": "Steering Flat",
+        "callResponse": "Checked and synchronised the steering flat's gyro repeater.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Call SteeringFlat"
+      },
+      {
+        "stepId": 10,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Drop Anchor"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 6
+    }
+  },
+
+  {
+    "id": 3,
+    "version": 0.1,
+    "name": "Grounding & Stranding",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/698o2rafw3nktr4kwbq8u/GroundingStranding.jpg?rlkey=p37i5ibzphuow1984jll29ich&dl=0",
+      "steps": [
+        "Let go one or both anchors to prevent further on-set towards bank or bar. ",
+        "Close watertight doors. ",
+        "Sound of all cargo hold bilges, cargo, ballast, freshwater and oil tanks, void spaces, cofferdams,  pump rooms and engine room bilges.",
+        "Make initial contact with DPA or his alternate.",
+        "Conduct Alcohol test for all crew on duty at the time of incident & record data",
+        "Maintain contact with Coastal Authority, nearby vessels ",
+        "Exhibit lights/shapes and make any appropriate sound signals. To switch on deck lights at night",
+        "Check the hull for damage, including visual inspection of compartments where possible. ",
+        "If oil pollution is occurring, take mitigating actions to reduce out flow and report to nearest authority. ",
+        "Check the nature of the bottom: e.g., sand, soft or hard mud, shell, stones, or coral. ",
+        "Check the direction, rate of current and stage of tide. ",
+        "Make a sketch of ship showing the water depths sounded around it with time and tidal conditions and  send to Office. ",
+        "Determine which way deep water lies.",
+        "Determine the condition of wind, sea and / or swell.",
+        "Whether hard aground or touching.",
+        "Determine the stability and stress conditions. ",
+        "Check possibility of reducing the draught of the ship, taking into consideration excessive stresses that  may occur. ",
+        "Tank status: soundings shall be repeated at least at intervals of 2 hours as long as the vessel remains  aground, and an exact record of such soundings shall be kept. ",
+        "Vessel’s draft: the draught marks should be checked. The time and reading should be recorded. ",
+        "Examine possibility of using engines to re-float. If possible, make attempt to do so.",
+        "Arrange tug assistance if necessary. ",
+        "Arrange contact with Class ERS for re-floating calculations. ",
+        "If vessel re-floats, proceed to safe place to perform further checks, including diver assistance.",
+        "Stop VDR recording",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1-EXEnJe_-lN5brKgFH59_65A8vRMMCpS/view?usp=sharing"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 10,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Drop Anchor"
+      },
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Close WaterTight Doors"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 1,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm"
+      },
+      {
+        "stepId": 5,
+        "callRecipient": "Designated Person Ashore (DPA)",
+        "callResponse": "Acknowledged.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Call DPA"
+      },
+      {
+        "stepId": 7,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Switch off Wifi & Internet"
+      }
+      
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": false,
+      "env": "Grounding",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
+    "id": 4,
+    "version": 0.1,
+    "name": "Collision And Allison",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/bjtxuqmhl0t76w0puog3n/CollisionAllison.jpeg?rlkey=sw05lq28ja2igmu0ttw5rx0s3&dl=0",
+      "steps": [
+        "Close watertight doors and automatic fire doors.",
+        "Manual sounding of all spaces - engine room, ballast tanks, cargo holds, cofferdams, void spaces.",
+        "Make preparations for abandoning ship.",
+        "Assist the other vessel if in life threatening situation. ",
+        "Is there immediate danger to own vessel or crew? If so, Master should take whatever action to  minimise the danger.",
+        "Is it safe for the vessel to remain in the present location? Consider moving to anchoring grounds. ",
+        "Is the vessel causing danger to other vessels or parties? ",
+        "Is there any oil pollution? If so, proceed with pollution control action.",
+        "Check if there is damage or imminent damage to cargo? ",
+        "Based on the above assessment, Master should take the necessary damage or pollution control  action.",
+        "Determine the need for commercial salvage assistance. Master shall determine if vessel in possible  danger of becoming a total loss before signing an LOF as necessary. ",
+        "If in coastal waters, contact Local / Port Authorities - Coast Guard, MSA etc.",
+        "Check vessel drift.",
+        "Stop VDR recording. ",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy. ",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data.",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/13TpIyCrAZG0IJcSi7-1trlYMV3c_0PlH/view?usp=share_link"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Close WaterTight Doors"
+      },
+      {
+        "stepId": 0,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 6,
+        "stepInstruction": "Close Automatic Fire Door"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Sound Alarm"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": false,
+      "env": "Ship",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
+    "id": 5,
+    "version": 0.1,
+    "name": "Loss Of Power",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/gcb4us7eh8d6k9z5zcnvs/Loss-of-Power.jpg?rlkey=6or6ccgabqc5kfdz2pdbxnfak&dl=0" ,
+      "steps": [
+        "Switch to hand steering once emergency generator is on.",
+        "Steer vessel away from danger.",  
+        "Use Aldis lamp with battery to warn other vessels. ",
+        "Prepare for anchoring if in shallow water. ",
+        "Conserve power if emergency power is through battery.",
+        "Engineers to rectify fault and revert to normal power. "
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1hrcNWitpYZSa-UYIPW7KM8MsvUU_Ja6M/view?usp=share_link"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 16,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Reduce Speed"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": false,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 0
+    }
+  },
+  {
     "id": 6,
     "version": 0.1,
     "name": "Hull Rupture",
@@ -489,44 +448,85 @@
   {
     "id": 7,
     "version": 0.1,
-    "name": "Loss Of Power",
+    "name": "Tank Over Flow",
     "isActive": true,
     "sopUIDataList": {
-      "image": "https://dl.dropboxusercontent.com/scl/fi/gcb4us7eh8d6k9z5zcnvs/Loss-of-Power.jpg?rlkey=6or6ccgabqc5kfdz2pdbxnfak&dl=0" ,
+      "image": "https://dl.dropboxusercontent.com/scl/fi/7uzygzg5se4lrlunjqww6/Tank-Overflow.jpg?rlkey=i274tiykrj3ka3vxgrsji8cdi&dl=0",
       "steps": [
-        "Switch to hand steering once emergency generator is on.",
-        "Steer vessel away from danger.",  
-        "Use Aldis lamp with battery to warn other vessels. ",
-        "Prepare for anchoring if in shallow water. ",
-        "Conserve power if emergency power is through battery.",
-        "Engineers to rectify fault and revert to normal power. "
+        "Stop all transfer operations immediately, shut valves. ",
+        "Attempt to drain the overflowing tank to other tanks.",
+        "Initiate anti-pollution measures as per the SOPEP / SMPEP or other local Response Plans.",
+        " Inform nearest Authority (and other vessels in the vicinity only if pollution in water).",
+        "If liquid is entering the water inform the E/R about the danger of liquid entering the cooling water  intakes.",
+        "If evaporating vapour is present on deck, ensure all crew on deck are wearing full PPE. ",
+        "All accommodation access doors should be shut and all ventilation with the exception of closed-circuit  systems to be shut down. ",
+        "Smoking and naked lights should be prohibited everywhere on the ship and electrical switches  operated as little as possible. ",
+        "If toxic liquid is present on deck and a presenting a toxic hazard to the crew, consider operating the  deck water spray to neutralize it. If in port, ensure local authority informed first. ",
+        "If STS operations using chain linked fenders, consider using a foam blanket on any flammable liquid  in the water. ",
+        "Check that liquid has drained completely from any low-level piping such as IG horizontal lines.",
+        "Continuously notify all parties of vessel’s actions / planned actions. ",
+        "Stop VDR recording.",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy.",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data. ",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
       ],
-      "pdfUrl": "https://drive.google.com/file/d/1hrcNWitpYZSa-UYIPW7KM8MsvUU_Ja6M/view?usp=share_link"
+      "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
     },
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "The tanks are overflowing!<br>We need to handle it before it gets out of hand!"
+        },
+        {
+          "characterID": 8,
+          "dialogue": "Do the SOP for it in order to prevent it from getting worse captain!"
         }
       ],
     "stepDataLists": [
       {
-        "stepId": 16,
+        "stepId": 9,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
+        "cutSceneId": 1,
+        "stepInstruction": "Shut Valves"
+      },
+      {
+        "stepId": 15,
+        "callRecipient": "Anti-Pollution Measures",
+        "callResponse": "Deploy containment booms and skimmers to gather any oil that has been spilt, as well as chemical dispersants to break up the oil and absorbent materials to absorb it.",
+        "alarmType": 0,
+        "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
-        "stepInstruction": "Reduce Speed"
+        "cutSceneId": 0,
+        "stepInstruction": "Initiate Anti Pollution Measures"
+      },
+      {
+        "stepId": 1,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 2,
+        "stepInstruction": "Close Accommodation Doors"
+      },
+      {
+        "stepId": 2,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 3,
+        "stepInstruction": "Shut Ventilation Doors"
       }
     ],
     "conditionsLists": {
-      "canSteer": false,
+      "canSteer": true,
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 0
+      "successPromptDelay": 4.5
     }
   }
 ]
