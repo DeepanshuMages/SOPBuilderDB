@@ -43,7 +43,7 @@
       ],
     "stepDataLists": [
       {
-        "stepId": 5,
+        "stepId": 4,
         "callRecipient": "Officer of the Watch",
         "callResponse": "Acknowledged.<br>The ship has reverted to manual steering and is manoeuvring the vessle to keep propeller away from the man overboard side.",
         "alarmType": 0,
