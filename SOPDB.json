@@ -499,8 +499,7 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
+        "cutSceneId": 8,
         "stepInstruction": "Lower liquid in Rupture"
       }
     ],
