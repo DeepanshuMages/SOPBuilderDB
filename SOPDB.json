@@ -96,6 +96,26 @@
         "cutScene": "",
         "cutSceneId": 4,
         "stepInstruction": "Reduce Speed"
+      },
+      {
+        "stepId": 13,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Send Rescue Boat"
+      },
+      {
+        "stepId": 11,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 4,
+        "stepInstruction": "Hoist O-flag"
       }
     ],
     "conditionsLists": {
@@ -103,7 +123,7 @@
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 0
+      "successPromptDelay": 2.5
     }
   },
   {
@@ -377,6 +397,15 @@
         "cutScene": "",
         "cutSceneId": 7,
         "stepInstruction": "Emergency Generator"
+      },
+      {
+        "stepId": 17,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Steer Away From Danger"
       },
       {
         "stepId": 10,
