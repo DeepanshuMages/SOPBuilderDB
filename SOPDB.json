@@ -94,7 +94,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
+        "cutSceneId": 0,
         "stepInstruction": "Reduce Speed"
       },
       {
@@ -465,14 +465,43 @@
       ],
     "stepDataLists": [
       {
-        "stepId": 16,
+        "stepId": 18,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
-        "stepInstruction": "Reduce Speed"
+        "cutSceneId": 0,
+        "stepInstruction": "Detect Rupture"
+      },
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 0,
+        "stepInstruction": "Alert Nearby Vessels"
+      },
+      {
+        "stepId": 9,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 1,
+        "stepInstruction": "Shut Valves"
+      },
+      {
+        "stepId": 8,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "cutSceneId": 0,
+        "stepInstruction": "Lower liquid in Rupture"
       }
     ],
     "conditionsLists": {
@@ -480,7 +509,7 @@
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 0
+      "successPromptDelay": 4
     }
   },
   {
