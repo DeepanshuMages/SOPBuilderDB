@@ -64,7 +64,7 @@
         "stepId": 19,
         "callRecipient": "",
         "callResponse": "",
-        "alarmType": 1,
+        "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
         "stepInstruction": "Sound Alarm 1"
@@ -73,7 +73,7 @@
         "stepId": 19,
         "callRecipient": "",
         "callResponse": "",
-        "alarmType": 1,
+        "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
         "stepInstruction": "Sound Alarm 2"
@@ -82,7 +82,7 @@
         "stepId": 19,
         "callRecipient": "",
         "callResponse": "",
-        "alarmType": 1,
+        "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
         "stepInstruction": "Sound Alarm 3"
@@ -494,7 +494,7 @@
         "stepInstruction": "Shut Valves"
       },
       {
-        "stepId": 8,
+        "stepId": 14,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
