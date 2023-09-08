@@ -104,7 +104,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
+        "cutSceneId": 0,
         "stepInstruction": "Send Rescue Boat"
       },
       {
@@ -114,7 +114,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
+        "cutSceneId": 0,
         "stepInstruction": "Hoist O-flag"
       }
     ],
