@@ -119,7 +119,7 @@
       }
     ],
     "conditionsLists": {
-      "canSteer": false,
+      "canSteer": true,
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
@@ -418,7 +418,7 @@
       }
     ],
     "conditionsLists": {
-      "canSteer": false,
+      "canSteer": true,
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
@@ -506,7 +506,7 @@
     ],
     "conditionsLists": {
       "canSteer": false,
-      "canMove": true,
+      "canMove": false,
       "env": "",
       "cutSceneId": 0,
       "successPromptDelay": 4
