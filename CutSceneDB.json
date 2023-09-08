@@ -40,5 +40,12 @@
     "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/Compressed-Automatic-Firedoors.mp4?rlkey=3kwbho5lqehevtst1mm99cdjv&dl=0",
     "audioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Firedoor-Close.mp3?rlkey=5f3izs7hgckap6ir93yxgi2w0&dl=0",
     "delayInAudio": 0
+  },
+  {
+    "cutSceneId": 7,
+    "cutSceneName": "EmergencyGenerator",
+    "cutSceneLink": "https://dl.dropboxusercontent.com/scl/fi/sihimxm7j8yccej23sh9d/Compressed-GeneratorRoom_30FPS.mp4?rlkey=6uclnp4eii4gybkrud7db3p03&dl=0",
+    "audioLink": "https://dl.dropboxusercontent.com/scl/fi/85tn8sp2x8r7pxrlw6dkw/Generator-On-Sound.mp3?rlkey=tbih07pn5miz2eqh0qva2t9mp&dl=0",
+    "delayInAudio": 0
   }
 ]

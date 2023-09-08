@@ -364,19 +364,28 @@
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "The storm has damaged our main power supply. Captain, please lead the SOP."
         }
       ],
     "stepDataLists": [
       {
-        "stepId": 16,
+        "stepId": 8,
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 4,
-        "stepInstruction": "Reduce Speed"
+        "cutSceneId": 7,
+        "stepInstruction": "Emergency Generator"
+      },
+      {
+        "stepId": 10,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutSceneId": 0,
+        "stepInstruction": "Drop Anchor"
       }
     ],
     "conditionsLists": {
@@ -384,7 +393,7 @@
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 0
+      "successPromptDelay": 6
     }
   },
   {
