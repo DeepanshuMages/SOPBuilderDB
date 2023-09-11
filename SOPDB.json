@@ -38,7 +38,11 @@
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "Of course! It appears that our clumsy new crew mate, Bob, has fallen into the water! Lets save him! "
+        },
+        {
+          "characterID": 8,
+          "dialogue": "Captain! Please save me! I just learnt swimming few days ago! "
         }
       ],
     "stepDataLists": [
@@ -149,7 +153,7 @@
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "Of all days! We have a steering gear failure today."
         }
       ],
     "stepDataLists": [
@@ -322,7 +326,7 @@
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "We’ve collided into another ship!<br>Don’t people know how to drive these days?!"
         }
       ],
     "stepDataLists": [
@@ -460,7 +464,11 @@
     "dialogueLists": [
         {
           "characterID": 8,
-          "dialogue": "The storm has blocked our vision and now we got a situation. Captain, I bet you’re on it already."
+          "dialogue": "The hulls been breached!<br>Water is meant to remain outside the ship not inside it!"
+        },
+        {
+          "characterID": 8,
+          "dialogue": "Time to be quick on your feet before we get the ocean in the ship"
         }
       ],
     "stepDataLists": [
