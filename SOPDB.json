@@ -506,7 +506,7 @@
     "conditionsLists": {
       "canSteer": false,
       "canMove": false,
-      "env": "",
+      "env": "Ice Bergs",
       "cutSceneId": 0,
       "successPromptDelay": 4
     }
