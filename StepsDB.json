@@ -158,11 +158,8 @@
     "icon": "",
     "category": "",
     "defaultValue": false,
-    "dashBoardButton": true,
-    "alarmList": {
-      "alarmType": ["General Alarm", "Manual Alarm"],
-      "alarmSpace": ["All Spaces", "Lowe Deck"]
-    }
+    "dashBoardButton": false,
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
   },{
     "stepId": 18,
     "stepName": "Detect Rupture",
@@ -170,10 +167,7 @@
     "category": "",
     "defaultValue": false,
     "dashBoardButton": false,
-    "alarmList": {
-      "alarmType": ["General Alarm", "Manual Alarm"],
-      "alarmSpace": ["All Spaces", "Lowe Deck"]
-    }
+    "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
     "stepId": 19,
