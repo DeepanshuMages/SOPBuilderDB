@@ -233,7 +233,9 @@
     "category": "Alarm",
     "defaultValue": false,
     "dashBoardButton": true,
-    "cutSceneId": 0,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": {
       "alarmType": ["General Alarm", "Manual Alarm"],
       "alarmSpace": ["All Spaces", "Lowe Deck"]
