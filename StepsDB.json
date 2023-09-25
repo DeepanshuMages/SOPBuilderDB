@@ -6,6 +6,9 @@
     "category": "Door & Exits",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/Compressed-Automatic-Firedoors.mp4?rlkey=3kwbho5lqehevtst1mm99cdjv&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Firedoor-Close.mp3?rlkey=5f3izs7hgckap6ir93yxgi2w0&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -15,6 +18,9 @@
     "category": "Door & Exits",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/y7ihxcxjmid4sd3awc79u/CutScene_AccommodationRoom01.mp4?rlkey=7qnt9zjnvl2t6htua2qj0dbpb&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/s1o3z0hao7f3l22hqcto1/Watertight-door-close.mp3?rlkey=e5dsiiydhlx87f9gpjfmndb59&dl=0",
+    "delayIncutSceneAudio": 1.0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -24,6 +30,9 @@
     "category": "Door & Exits",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/gmeyjq1w3rl28452b8ycb/Compressed-Ventilation-System.mp4?rlkey=ci08w23q3pwdnr3jvsps7xg6s&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/oso87kvtnmyqynwbq8ubs/Ventilation-Turn-off.mp3?rlkey=ps601zb37712yn7fjmkiyoue9&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -33,6 +42,9 @@
     "category": "Door & Exits",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/fk0025tc54wjsdld6z7jo/WaterTightDoor.mp4?rlkey=xrh2uxf17ag9oji21kg3kekdb&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/s1o3z0hao7f3l22hqcto1/Watertight-door-close.mp3?rlkey=e5dsiiydhlx87f9gpjfmndb59&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -42,6 +54,9 @@
     "category": "Call",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -51,6 +66,9 @@
     "category": "Call",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -60,6 +78,9 @@
     "category": "Call",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -69,6 +90,9 @@
     "category": "Controls",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -78,6 +102,9 @@
     "category": "Controls",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/sihimxm7j8yccej23sh9d/Compressed-GeneratorRoom_30FPS.mp4?rlkey=6uclnp4eii4gybkrud7db3p03&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/85tn8sp2x8r7pxrlw6dkw/Generator-On-Sound.mp3?rlkey=tbih07pn5miz2eqh0qva2t9mp&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -87,6 +114,9 @@
     "category": "Controls",
     "defaultValue": true,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/ukx740l0r6fxwclk5tnqo/CutScene_Valves01.mp4?rlkey=pws0ldlv65f5zzz0qn48bo54s&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/ndfn77o3wh6o4ogvody4u/Valve-Close.mp3?rlkey=hfyeyvv247fzyz6asj3v4aplw&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -96,6 +126,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -105,6 +138,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -114,6 +150,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -123,6 +162,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -132,6 +174,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/LowerLiquidInReptureTank.mp4?rlkey=z7hx539hgzl9vbf5vfu96vevm&dl=0",
+    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Lower-Water-sound.mp3?rlkey=5xp179uyfl4zshg8k93ylhsmo&dl=0",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -141,6 +186,9 @@
     "category": "Actions",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -150,6 +198,9 @@
     "category": "",
     "defaultValue": false,
     "dashBoardButton": false,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -159,6 +210,9 @@
     "category": "",
     "defaultValue": false,
     "dashBoardButton": false,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },{
     "stepId": 18,
@@ -167,6 +221,9 @@
     "category": "",
     "defaultValue": false,
     "dashBoardButton": false,
+    "cutSceneVideoLink": "",
+    "cutSceneAudioLink": "",
+    "delayIncutSceneAudio": 0,
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
@@ -176,6 +233,7 @@
     "category": "Alarm",
     "defaultValue": false,
     "dashBoardButton": true,
+    "cutSceneId": 0,
     "alarmList": {
       "alarmType": ["General Alarm", "Manual Alarm"],
       "alarmSpace": ["All Spaces", "Lowe Deck"]
