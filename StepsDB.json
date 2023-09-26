@@ -54,6 +54,7 @@
   {
     "stepId": 4,
     "stepName": "Officer",
+    "stepCategory": "Call",
     "icon": "",
     "buttonCategory": "Call",
     "defaultValue": true,
@@ -66,6 +67,7 @@
   {
     "stepId": 5,
     "stepName": "DPA",
+    "stepCategory": "Call",
     "icon": "",
     "buttonCategory": "Call",
     "defaultValue": true,
@@ -78,6 +80,7 @@
   {
     "stepId": 6,
     "stepName": "Steering Flat",
+    "stepCategory": "Call",
     "icon": "",
     "buttonCategory": "Call",
     "defaultValue": true,
