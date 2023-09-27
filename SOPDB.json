@@ -71,7 +71,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
-        "stepInstruction": "Sound Alarm 1"
+        "stepInstruction": "Sound General Alarm in all spaces thrice"
       },
       {
         "stepId": 19,
@@ -80,7 +80,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
-        "stepInstruction": "Sound Alarm 2"
+        "stepInstruction": "Sound General Alarm in all spaces twice"
       },
       {
         "stepId": 19,
@@ -89,7 +89,7 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutSceneId": 0,
-        "stepInstruction": "Sound Alarm 3"
+        "stepInstruction": "Sound General Alarm in all spaces once"
       },
       {
         "stepId": 16,
