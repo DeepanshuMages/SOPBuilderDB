@@ -604,9 +604,9 @@
         "stepId": 19,
         "callRecipient": "",
         "callResponse": "",
-        "alarmType": 1,
+        "alarmType": 0,
         "alarmSpace": 0,
-        "stepInstruction": "Sound Alarm"
+        "stepInstruction": "Sound General Alarm"
       },
       {
         "stepId": 3,
@@ -631,7 +631,7 @@
         "callResponse": "Deploy damage control teams to assess the flooding and take necessary control measures.",
         "alarmType": 0,
         "alarmSpace": 0,
-        "stepInstruction": "Call Damage Control Team"
+        "stepInstruction": "Call Damage Control"
       },
       {
         "stepId": 22,
