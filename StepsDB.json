@@ -265,7 +265,7 @@
   },
   {
     "stepId": 21,
-    "stepName": "DamageControl Team",
+    "stepName": "DamageControl",
     "stepCategory": "Call",
     "icon": "https://dl.dropboxusercontent.com/scl/fi/4i5ehfety598djg6yy5q9/Call_Icon.png?rlkey=2d0or1jh8zudw1hx2wmqei948&dl=0",
     "buttonCategory": "Call",
@@ -277,7 +277,7 @@
     "alarmList": { "alarmType": [], "alarmSpace": [] }
   },
   {
-    "stepId": 21,
+    "stepId": 22,
     "stepName": "Adjust Ballast",
     "icon": "https://dl.dropboxusercontent.com/scl/fi/anjx55vjbqudvq8ygvzr7/Ballast.png?rlkey=5az4kbzf3o2z3lxfh2gryiow3&dl=0",
     "buttonCategory": "Actions",
