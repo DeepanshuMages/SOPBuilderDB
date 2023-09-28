@@ -647,7 +647,7 @@
       "canMove": true,
       "env": "",
       "cutSceneId": 0,
-      "successPromptDelay": 4.5
+      "successPromptDelay": 1
     }
   }
 ]
