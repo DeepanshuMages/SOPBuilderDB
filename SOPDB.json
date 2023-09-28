@@ -52,7 +52,6 @@
         "callResponse": "Acknowledged.<br>The ship has reverted to manual steering and is manoeuvring the vessle to keep propeller away from the man overboard side.",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Call Officer"
       },
       {
@@ -61,7 +60,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Release MOB Marker"
       },
       {
@@ -70,7 +68,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Sound General Alarm in all spaces thrice"
       },
       {
@@ -79,7 +76,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Sound General Alarm in all spaces twice"
       },
       {
@@ -88,7 +84,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Sound General Alarm in all spaces once"
       },
       {
@@ -97,8 +92,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Reduce Speed"
       },
       {
@@ -107,8 +100,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Send Rescue Boat"
       },
       {
@@ -117,8 +108,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Hoist O-flag"
       }
     ],
@@ -163,7 +152,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Reduce Speed"
       },
       {
@@ -172,7 +160,6 @@
         "callResponse": "Checked and synchronised the steering flat's gyro repeater.",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Call SteeringFlat"
       },
       {
@@ -181,7 +168,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Drop Anchor"
       }
     ],
@@ -245,7 +231,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Drop Anchor"
       },
       {
@@ -254,8 +239,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 4,
         "stepInstruction": "Close WaterTight Doors"
       },
       {
@@ -264,7 +247,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 1,
-        "cutSceneId": 0,
         "stepInstruction": "Sound Alarm"
       },
       {
@@ -273,7 +255,6 @@
         "callResponse": "Acknowledged.",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Call DPA"
       },
       {
@@ -281,8 +262,6 @@
         "callRecipient": "",
         "callResponse": "",
         "alarmType": 0,
-        "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Switch off Wifi & Internet"
       }
       
@@ -336,8 +315,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 4,
         "stepInstruction": "Close WaterTight Doors"
       },
       {
@@ -346,8 +323,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 6,
         "stepInstruction": "Close Automatic Fire Door"
       },
       {
@@ -356,7 +331,6 @@
         "callResponse": "",
         "alarmType": 1,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Sound Alarm"
       }
     ],
@@ -399,7 +373,6 @@
         "alarmType": 0,
         "alarmSpace": 0,
         "cutScene": "",
-        "cutSceneId": 7,
         "stepInstruction": "Emergency Generator"
       },
       {
@@ -408,7 +381,6 @@
         "callResponse": "",
         "alarmType": 1,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Steer Away From Danger"
       },
       {
@@ -417,7 +389,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 0,
         "stepInstruction": "Drop Anchor"
       }
     ],
@@ -425,7 +396,6 @@
       "canSteer": true,
       "canMove": true,
       "env": "",
-      "cutSceneId": 0,
       "successPromptDelay": 6
     }
   },
@@ -478,8 +448,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Detect Rupture"
       },
       {
@@ -488,8 +456,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Alert Nearby Vessels"
       },
       {
@@ -498,7 +464,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 1,
         "stepInstruction": "Shut Valves"
       },
       {
@@ -507,7 +472,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 8,
         "stepInstruction": "Lower liquid in Rupture"
       }
     ],
@@ -563,7 +527,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 1,
         "stepInstruction": "Shut Valves"
       },
       {
@@ -572,8 +535,6 @@
         "callResponse": "Deploy containment booms and skimmers to gather any oil that has been spilt, as well as chemical dispersants to break up the oil and absorbent materials to absorb it.",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutScene": "",
-        "cutSceneId": 0,
         "stepInstruction": "Initiate Anti Pollution Measures"
       },
       {
@@ -582,7 +543,6 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 2,
         "stepInstruction": "Close Accommodation Doors"
       },
       {
@@ -591,8 +551,95 @@
         "callResponse": "",
         "alarmType": 0,
         "alarmSpace": 0,
-        "cutSceneId": 3,
         "stepInstruction": "Shut Ventilation Doors"
+      }
+    ],
+    "conditionsLists": {
+      "canSteer": true,
+      "canMove": true,
+      "env": "",
+      "cutSceneId": 0,
+      "successPromptDelay": 4.5
+    }
+  },
+  {
+    "id": 8,
+    "version": 0.1,
+    "name": "Flooded Compartment",
+    "isActive": true,
+    "sopUIDataList": {
+      "image": "https://dl.dropboxusercontent.com/scl/fi/p0ijljh7z3oodi4vclcgj/Scrubber_failure_Flooded_Engine_Room.jpg?rlkey=n27owkeomqbre5pjbk38tpf90&dl=0",
+      "steps": [
+        "Stop all transfer operations immediately, shut valves. ",
+        "Attempt to drain the overflowing tank to other tanks.",
+        "Initiate anti-pollution measures as per the SOPEP / SMPEP or other local Response Plans.",
+        " Inform nearest Authority (and other vessels in the vicinity only if pollution in water).",
+        "If liquid is entering the water inform the E/R about the danger of liquid entering the cooling water  intakes.",
+        "If evaporating vapour is present on deck, ensure all crew on deck are wearing full PPE. ",
+        "All accommodation access doors should be shut and all ventilation with the exception of closed-circuit  systems to be shut down. ",
+        "Smoking and naked lights should be prohibited everywhere on the ship and electrical switches  operated as little as possible. ",
+        "If toxic liquid is present on deck and a presenting a toxic hazard to the crew, consider operating the  deck water spray to neutralize it. If in port, ensure local authority informed first. ",
+        "If STS operations using chain linked fenders, consider using a foam blanket on any flammable liquid  in the water. ",
+        "Check that liquid has drained completely from any low-level piping such as IG horizontal lines.",
+        "Continuously notify all parties of vessel’s actions / planned actions. ",
+        "Stop VDR recording.",
+        "Switch off Wi-Fi and crew internet. Comply with Company’s Social Media Policy.",
+        "Conduct Alcohol Test for all crew on duty at the time of incident and record data. ",
+        "Collect urine samples of all crew on duty at the time of incident for Drug Test (if incident actual  Severity Level 3 and above), sample to offload for shore lab test."
+      ],
+      "pdfUrl": "https://drive.google.com/file/d/1BqReO7PJthC-uXuIBcPcgUEOw8LKFfaW/view?usp=sharing"
+    },
+    "dialogueLists": [
+        {
+          "characterID": 8,
+          "dialogue": "We Have a Flooded Compoenet!<br>We need to handle it before it gets out of hand!"
+        },
+        {
+          "characterID": 8,
+          "dialogue": "Do the SOP for it in order to prevent it from getting worse captain!"
+        }
+      ],
+    "stepDataLists": [
+      {
+        "stepId": 19,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 1,
+        "alarmSpace": 0,
+        "stepInstruction": "Sound Alarm"
+      },
+      {
+        "stepId": 3,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "cutScene": "",
+        "stepInstruction": "Close WaterTight Doors"
+      },
+      {
+        "stepId": 20,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "stepInstruction": "Activate Bilge pumps"
+      },
+      {
+        "stepId": 21,
+        "callRecipient": "Damage Control Team",
+        "callResponse": "Deploy damage control teams to assess the flooding and take necessary control measures.",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "stepInstruction": "Call Damage Control Team"
+      },
+      {
+        "stepId": 22,
+        "callRecipient": "",
+        "callResponse": "",
+        "alarmType": 0,
+        "alarmSpace": 0,
+        "stepInstruction": "Stablise Ship - Adjust Ballast"
       }
     ],
     "conditionsLists": {
