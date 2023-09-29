@@ -643,8 +643,8 @@
       }
     ],
     "conditionsLists": {
-      "canSteer": true,
-      "canMove": true,
+      "canSteer": false,
+      "canMove": false,
       "env": "",
       "cutSceneId": 0,
       "successPromptDelay": 1
