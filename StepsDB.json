@@ -254,6 +254,7 @@
   {
     "stepId": 20,
     "stepName": "Activate Bilge pumps",
+    "stepCategory": "CutScene",
     "icon": "https://dl.dropboxusercontent.com/scl/fi/f8ym4gof9sxkehet4bed4/Bilge_Pump.png?rlkey=dgrt8fzon0wqkznuzbzs54hi6&dl=0",
     "buttonCategory": "Actions",
     "defaultValue": false,
