@@ -250,43 +250,5 @@
       "alarmType": ["General Alarm", "Manual Alarm"],
       "alarmSpace": ["All Spaces", "Lowe Deck"]
     }
-  },
-  {
-    "stepId": 20,
-    "stepName": "Activate Bilge pumps",
-    "stepCategory": "CutScene",
-    "icon": "https://dl.dropboxusercontent.com/scl/fi/f8ym4gof9sxkehet4bed4/Bilge_Pump.png?rlkey=dgrt8fzon0wqkznuzbzs54hi6&dl=0",
-    "buttonCategory": "Actions",
-    "defaultValue": false,
-    "dashBoardButton": true,
-    "cutSceneVideoLink": "https://dl.dropboxusercontent.com/scl/fi/vobck8yohvx66dkpuwh5y/LowerLiquidInReptureTank.mp4?rlkey=z7hx539hgzl9vbf5vfu96vevm&dl=0",
-    "cutSceneAudioLink": "https://dl.dropboxusercontent.com/scl/fi/51q8au5qykivjzv8jv5se/Lower-Water-sound.mp3?rlkey=5xp179uyfl4zshg8k93ylhsmo&dl=0",
-    "delayInCutSceneAudio": 0,
-    "alarmList": { "alarmType": [], "alarmSpace": [] }
-  },
-  {
-    "stepId": 21,
-    "stepName": "DamageControl",
-    "stepCategory": "Call",
-    "icon": "https://dl.dropboxusercontent.com/scl/fi/4i5ehfety598djg6yy5q9/Call_Icon.png?rlkey=2d0or1jh8zudw1hx2wmqei948&dl=0",
-    "buttonCategory": "Call",
-    "defaultValue": true,
-    "dashBoardButton": true,
-    "cutSceneVideoLink": "",
-    "cutSceneAudioLink": "",
-    "delayInCutSceneAudio": 0,
-    "alarmList": { "alarmType": [], "alarmSpace": [] }
-  },
-  {
-    "stepId": 22,
-    "stepName": "Adjust Ballast",
-    "icon": "https://dl.dropboxusercontent.com/scl/fi/anjx55vjbqudvq8ygvzr7/Ballast.png?rlkey=5az4kbzf3o2z3lxfh2gryiow3&dl=0",
-    "buttonCategory": "Actions",
-    "defaultValue": false,
-    "dashBoardButton": true,
-    "cutSceneVideoLink": "",
-    "cutSceneAudioLink": "",
-    "delayInCutSceneAudio": 0,
-    "alarmList": { "alarmType": [], "alarmSpace": [] }
-  },
+  }
 ]
