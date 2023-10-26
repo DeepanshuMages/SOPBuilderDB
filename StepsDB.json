@@ -248,7 +248,7 @@
     "delayInCutSceneAudio": 0,
     "alarmList": {
       "alarmType": ["General Alarm", "Manual Alarm"],
-      "alarmSpace": ["All Spaces", "Lowe Deck"]
+      "alarmSpace": ["All Spaces", "Lower Deck"]
     }
   }
 ]
